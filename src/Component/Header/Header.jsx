@@ -15,7 +15,7 @@ const Header = () => {
             <a href="/">HOME</a>
           </li>
           <li className="ml-12 hover:text-green-500">
-            <a href="/">ABOUT</a>
+            <a href="#about">ABOUT</a>
           </li>
           <li className="ml-12 hover:text-green-500">
             <a href="/">PROJECT</a>
