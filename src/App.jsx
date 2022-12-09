@@ -1,3 +1,4 @@
+import About from "./Component/About/About"
 import Header from "./Component/Header/Header"
 import Home from "./Component/Home/Home"
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Header/>
       <Home/>
+      <About/>
     </div>
   )
 }
