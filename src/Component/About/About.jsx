@@ -12,12 +12,12 @@ const skills = [
   "MongoDB",
   "TailwindCSS",
   "Bootstrap",
-  "GitHub", 
+  "GitHub",
   "Netlify",
   "Vercel",
   "Chrome Dev Tool",
   "Material UI",
-  "VS Code"
+  "VS Code",
 ];
 
 const About = () => {
@@ -34,24 +34,42 @@ const About = () => {
         <div className="md:w-1/2 p-8 md:p-20">
           <h3 className="text-3xl font-bold mb-10">Get to know me!</h3>
           <p className="text-xl text-justify mb-10">
-            I'm a Frontend Web Developer building the Front-end of Websites and
-            Web Applications that leads to the success of the overall product.
-            Check out some of my work in the Projects section. I also like
-            sharing content related to the stuff that I have learned over the
-            years in Web Development so it can help other people of the Dev
-            Community. Feel free to Connect or Follow me on my Linkedin where I
-            post useful content related to Web Development and Programming I'm
-            open to Job opportunities where I can contribute, learn and grow. If
-            you have a good opportunity that matches my skills and experience
-            then don't hesitate to contact me.
+            I'm a <span className="font-bold">Frontend Web Developer</span>{" "}
+            building the Front-end of Websites and Web Applications that leads
+            to the success of the overall product. Check out some of my work in
+            the <span className="font-bold">Projects</span> section.
+            <br />I also like sharing content related to the stuff that I have
+            learned over the years in{" "}
+            <span className="font-bold">Web Development</span> so it can help
+            other people of the Dev Community. Feel free to Connect or Follow me
+            on my{" "}
+            <a
+              className="font-bold text-green-400 underline hover:no-underline hover:text-green-500"
+              target="_blank"
+              href="https://www.linkedin.com/in/tahdiislam/"
+            >
+              Linkedin
+            </a>{" "}
+            where I post useful content related to Web Development and
+            Programming I'm open to <span className="font-bold">Job</span>{" "}
+            opportunities where I can contribute, learn and grow. If you have a
+            good opportunity that matches my skills and experience then don't
+            hesitate to <span className="font-bold">contact</span> me.
           </p>
-          <Button style="py-3 px-10">CONTACT</Button>
+          <a href="#contact">
+            <Button style="py-3 px-10">CONTACT</Button>
+          </a>
         </div>
         <div className="px-6 md:w-1/2 md:py-20 md:pr-20">
           <h3 className="text-2xl font-bold mb-10">My Skills</h3>
           <div className="flex flex-wrap">
             {skills.map((skill, i) => (
-              <span key={i} className="p-4 bg-gray-300 m-3 rounded-md text-gray-700 font-semibold">{skill}</span>
+              <span
+                key={i}
+                className="p-4 bg-gray-300 m-3 rounded-md text-gray-700 font-semibold"
+              >
+                {skill}
+              </span>
             ))}
           </div>
         </div>
