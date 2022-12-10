@@ -32,8 +32,20 @@ const About = () => {
       </div>
       <div className="flex flex-col md:flex-row md:justify-center">
         <div className="md:w-1/2 p-8 md:p-20">
-          <h3 className="text-3xl font-bold mb-10">Get to know me!</h3>
-          <p className="text-xl text-justify mb-10">
+          <h3
+            className="text-3xl font-bold mb-10"
+            data-aos="fade-down"
+            data-aos-easing="ease-in"
+            data-aos-duration="700"
+          >
+            Get to know me!
+          </h3>
+          <p
+            className="text-xl text-justify mb-10"
+            data-aos="fade-right"
+            data-aos-easing="ease-in"
+            data-aos-duration="500"
+          >
             I'm a <span className="font-bold">Frontend Web Developer</span>{" "}
             building the Front-end of Websites and Web Applications that leads
             to the success of the overall product. Check out some of my work in
@@ -56,13 +68,30 @@ const About = () => {
             good opportunity that matches my skills and experience then don't
             hesitate to <span className="font-bold">contact</span> me.
           </p>
-          <a href="#contact">
+          <a
+            href="#contact"
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-easing="ease-in"
+          >
             <Button style="py-3 px-10">CONTACT</Button>
           </a>
         </div>
         <div className="px-6 md:w-1/2 md:py-20 md:pr-20">
-          <h3 className="text-2xl font-bold mb-10">My Skills</h3>
-          <div className="flex flex-wrap">
+          <h3
+            className="text-2xl font-bold mb-10"
+            data-aos="fade-down"
+            data-aos-duration="700"
+            data-aos-easing="ease-in"
+          >
+            My Skills
+          </h3>
+          <div
+            className="flex flex-wrap"
+            data-aos="fade-left"
+            data-aos-duration="500"
+            data-aos-easing="ease-in"
+          >
             {skills.map((skill, i) => (
               <span
                 key={i}
