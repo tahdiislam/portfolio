@@ -36,14 +36,23 @@ const Contact = () => {
         backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%2380877f' fill-opacity='0.11'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E")`,
       }}
     >
-      <div className="w-3/4 md:w-1/2 mx-auto mb-10">
+      <div
+        className="w-3/4 md:w-1/2 mx-auto mb-10"
+        data-aos="zoom-in"
+        data-aos-duration="500"
+        data-aos-easing="ease-in"
+      >
         <h2 className="text-3xl font-bold text-center mb-8">CONTACT</h2>
         <p className="text-xl text-center">
           Feel free to Contact me by submitting the form below and I will get
           back to you as soon as possible
         </p>
       </div>
-      <div class="md:w-1/2 mx-auto flex items-center justify-start bg-white p-10 rounded-lg shadow-lg">
+      <div class="md:w-1/2 mx-auto flex items-center justify-start bg-white p-10 rounded-lg shadow-lg"
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-easing="ease-in"
+      >
         <div class="mx-auto">
           <form ref={form} onSubmit={handleFormSubmit} class="mt-10">
             <input

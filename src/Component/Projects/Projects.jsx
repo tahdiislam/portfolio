@@ -31,9 +31,12 @@ const projects = [
 const Projects = () => {
   return (
     <div id="projects" className="my-10 p-10">
-      <div className="mb-20 md:w-1/2 mx-auto" data-aos="zoom-in"
-              data-aos-duration="500"
-              data-aos-easing="ease-in">
+      <div
+        className="mb-20 md:w-1/2 mx-auto"
+        data-aos="zoom-in"
+        data-aos-duration="500"
+        data-aos-easing="ease-in"
+      >
         <h1 className="text-4xl font-bold text-center mb-10">PROJECTS</h1>
         <p className="text-xl text-center">
           Here you will find some of the personal and clients projects that I
