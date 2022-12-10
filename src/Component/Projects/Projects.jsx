@@ -25,7 +25,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="my-10">
+    <div id="projects" className="my-10 p-10">
       <div className="mb-20">
         <h1 className="text-4xl font-bold text-center mb-10">PROJECTS</h1>
         <p className="w-1/2 mx-auto text-xl text-center">
