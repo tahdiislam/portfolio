@@ -37,7 +37,7 @@ const Projects = () => {
         {projects.map((project, i) => (
           <div key={i} className="flex items-center mb-16">
             <img className="w-1/2" src={project.img} alt="" />
-            <div className="w-1/2 p-10">
+            <div className="w-1/2 p-16">
               <h2 className="text-3xl font-bold mb-10">{project.name}</h2>
               <p className="text-xl mb-10">{project.details}</p>
               <Button>PREVIEW</Button>
