@@ -1,6 +1,7 @@
 import About from "./Component/About/About"
 import Header from "./Component/Header/Header"
 import Home from "./Component/Home/Home"
+import Projects from "./Component/Projects/Projects"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       <Home/>
       <About/>
+      <Projects/>
     </div>
   )
 }
