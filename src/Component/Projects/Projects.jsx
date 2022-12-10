@@ -31,7 +31,9 @@ const projects = [
 const Projects = () => {
   return (
     <div id="projects" className="my-10 p-10">
-      <div className="mb-20 md:w-1/2 mx-auto">
+      <div className="mb-20 md:w-1/2 mx-auto" data-aos="zoom-in"
+              data-aos-duration="500"
+              data-aos-easing="ease-in">
         <h1 className="text-4xl font-bold text-center mb-10">PROJECTS</h1>
         <p className="text-xl text-center">
           Here you will find some of the personal and clients projects that I
@@ -44,8 +46,20 @@ const Projects = () => {
             key={i}
             className="flex flex-col md:flex-row md:items-center mb-8 md:mb-16"
           >
-            <img className="mb-4 md:mb-0 md:w-1/2" src={project.img} alt="" />
-            <div className="md:w-1/2 md:p-16">
+            <img
+              className="mb-4 md:mb-0 md:w-1/2"
+              src={project.img}
+              alt=""
+              data-aos="fade-right"
+              data-aos-duration="500"
+              data-aos-easing="ease-in"
+            />
+            <div
+              className="md:w-1/2 md:p-16"
+              data-aos="fade-left"
+              data-aos-duration="500"
+              data-aos-easing="ease-in"
+            >
               <h2 className="text-3xl font-bold mb-10">{project.name}</h2>
               <p className="text-xl mb-10">{project.details}</p>
               <a target="_blank" href={project.link}>
