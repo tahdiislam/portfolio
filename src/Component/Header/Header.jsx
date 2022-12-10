@@ -27,17 +27,21 @@ const Header = () => {
             />
           </svg>
         </button>
-        <ul className={`flex flex-col md:flex-row ml-6 absolute right-0 md:static md:mr-0 bg-white ${!dropdown ? "mr-[-999px]" : "mr-0"}`}>
-          <li className="ml-12 hover:text-green-500 py-3 px-6 ">
+        <ul
+          className={`flex flex-col md:flex-row ml-6 absolute right-0 md:static md:mr-0 bg-white ease-out duration-500 ${
+            !dropdown ? "-right-96 top-16" : "-right-8 top-16"
+          }`}
+        >
+          <li className="md:ml-12 py-3 md:py-0 px-16 md:px-0 hover:bg-gray-200 md:hover:bg-inherit hover:text-green-500">
             <a href="/">HOME</a>
           </li>
-          <li className="ml-12 hover:text-green-500">
+          <li className="md:ml-12 py-3 md:py-0 px-16 md:px-0 hover:bg-gray-200 md:hover:bg-inherit hover:text-green-500">
             <a href="#about">ABOUT</a>
           </li>
-          <li className="ml-12 hover:text-green-500">
+          <li className="md:ml-12 py-3 md:py-0 px-16 md:px-0 hover:bg-gray-200 md:hover:bg-inherit hover:text-green-500">
             <a href="#projects">PROJECT</a>
           </li>
-          <li className="ml-12 hover:text-green-500">
+          <li className="md:ml-12 py-3 md:py-0 px-16 md:px-0 hover:bg-gray-200 md:hover:bg-inherit hover:text-green-500">
             <a href="#contact">CONTACT</a>
           </li>
         </ul>
