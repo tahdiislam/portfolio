@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
   // form submit handler
   const handleFormSubmit = (e) => {
     e.preventDefault();
+    const messageForm = e.target;
+    // send email
+    emailjs
+      .sendForm(
+        "service_750cm48",
+        "template_n590ilx",
+        form.current,
+        "nJo2wm41_bEOYKxS5"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("Ok");
+          messageForm.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
   return (
     <div
@@ -22,7 +43,7 @@ const Contact = () => {
       </div>
       <div class="md:w-1/2 mx-auto flex items-center justify-start bg-white p-10 rounded-lg shadow-lg">
         <div class="mx-auto">
-          <form onSubmit={handleFormSubmit} class="mt-10">
+          <form ref={form} onSubmit={handleFormSubmit} class="mt-10">
             <input
               type="hidden"
               name="access_key"
@@ -32,7 +53,7 @@ const Contact = () => {
               <div class="relative z-0">
                 <input
                   type="text"
-                  name="name"
+                  name="user_name"
                   class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
                   placeholder=" "
                 />
@@ -43,7 +64,7 @@ const Contact = () => {
               <div class="relative z-0">
                 <input
                   type="email"
-                  name="email"
+                  name="user_email"
                   class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
                   placeholder=" "
                 />
