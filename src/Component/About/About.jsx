@@ -40,7 +40,7 @@ const About = () => {
           <Button style="py-3 px-10">CONTACT</Button>
         </div>
         <div className="px-6 md:w-1/2 md:py-20 md:pr-20">
-          <h3 className="text-2xl font-bold">My Skills</h3>
+          <h3 className="text-2xl font-bold mb-10">My Skills</h3>
           <div className="flex flex-wrap">
             {skills.map((skill, i) => (
               <span key={i} className="p-4 bg-gray-300 m-3 rounded-md text-gray-700 font-semibold">{skill}</span>
