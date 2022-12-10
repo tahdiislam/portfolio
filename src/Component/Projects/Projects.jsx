@@ -26,21 +26,24 @@ const projects = [
 const Projects = () => {
   return (
     <div id="projects" className="my-10 p-10">
-      <div className="mb-20">
+      <div className="mb-20 md:w-1/2 mx-auto">
         <h1 className="text-4xl font-bold text-center mb-10">PROJECTS</h1>
-        <p className="w-1/2 mx-auto text-xl text-center">
+        <p className="text-xl text-center">
           Here you will find some of the personal and clients projects that I
           created with each project containing its own case study
         </p>
       </div>
-      <div className="mx-20">
+      <div className="mx-4 md:mx-20">
         {projects.map((project, i) => (
-          <div key={i} className="flex items-center mb-16">
-            <img className="w-1/2" src={project.img} alt="" />
-            <div className="w-1/2 p-16">
+          <div
+            key={i}
+            className="flex flex-col md:flex-row md:items-center mb-8 md:mb-16"
+          >
+            <img className="mb-4 md:mb-0 md:w-1/2" src={project.img} alt="" />
+            <div className="md:w-1/2 md:p-16">
               <h2 className="text-3xl font-bold mb-10">{project.name}</h2>
               <p className="text-xl mb-10">{project.details}</p>
-              <Button>PREVIEW</Button>
+              <Button style="py-2 px-6 text-lg md:py-3 md:px-8 md:text-xl">PREVIEW</Button>
             </div>
           </div>
         ))}
