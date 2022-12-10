@@ -10,6 +10,14 @@ const skills = [
   "Node.js",
   "Express.js",
   "MongoDB",
+  "TailwindCSS",
+  "Bootstrap",
+  "GitHub", 
+  "Netlify",
+  "Vercel",
+  "Chrome Dev Tool",
+  "Material UI",
+  "VS Code"
 ];
 
 const About = () => {
