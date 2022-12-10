@@ -21,7 +21,7 @@ const Contact = () => {
           console.log(result.text);
           console.log("Ok");
           messageForm.reset();
-          toast.success("Message Send successfully")
+          toast.success("Message Send successfully");
         },
         (error) => {
           console.log(error.text);
@@ -54,6 +54,7 @@ const Contact = () => {
             <div class="grid gap-6 sm:grid-cols-2">
               <div class="relative z-0">
                 <input
+                  required
                   type="text"
                   name="user_name"
                   class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
@@ -65,6 +66,7 @@ const Contact = () => {
               </div>
               <div class="relative z-0">
                 <input
+                  required
                   type="email"
                   name="user_email"
                   class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
@@ -76,6 +78,7 @@ const Contact = () => {
               </div>
               <div class="relative z-0 col-span-2">
                 <textarea
+                  required
                   name="message"
                   rows="5"
                   class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
