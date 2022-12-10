@@ -16,7 +16,11 @@ const Home = () => {
           A Frontend focused Web Developer building the Frontend of Websites and
           Web Applications that leads to the success of the overall product
         </p>
-        <Button>PROJECTS</Button>
+        <a target="_blank" href="https://drive.google.com/file/d/1z5teT-C-_e8VP0rCh_cA61xK9pvc_GzW/view?usp=share_link">
+            <Button>
+                RESUME
+            </Button>
+        </a>
       </div>
     </div>
   );
