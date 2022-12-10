@@ -15,15 +15,15 @@ const skills = [
 const About = () => {
   return (
     <div id="about" className="bg-gray-100 pt-16">
-      <div>
+      <div className="w-3/4 md:w-1/2 mx-auto">
         <h1 className="text-4xl font-bold text-center mb-8">ABOUT ME</h1>
-        <p className="text-xl w-1/2 mx-auto text-center">
+        <p className="text-xl text-center">
           Here you will find more information about me, what I do, and my
           current skills mostly in terms of programming and technology
         </p>
       </div>
-      <div className="flex justify-center">
-        <div className="md:w-1/2 p-20">
+      <div className="flex flex-col md:flex-row md:justify-center">
+        <div className="md:w-1/2 p-8 md:p-20">
           <h3 className="text-3xl font-bold mb-10">Get to know me!</h3>
           <p className="text-xl text-justify mb-10">
             I'm a Frontend Web Developer building the Front-end of Websites and
@@ -39,7 +39,7 @@ const About = () => {
           </p>
           <Button style="py-3 px-10">CONTACT</Button>
         </div>
-        <div className="md:w-1/2 py-20 pr-20">
+        <div className="px-6 md:w-1/2 md:py-20 md:pr-20">
           <h3 className="text-2xl font-bold">My Skills</h3>
           <div className="flex flex-wrap">
             {skills.map((skill, i) => (
