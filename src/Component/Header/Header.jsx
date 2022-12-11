@@ -28,7 +28,7 @@ const Header = () => {
           </svg>
         </button>
         <ul
-          className={`flex flex-col md:flex-row ml-6 absolute right-0 md:static md:mr-0 bg-white ease-out duration-500 ${
+          className={`flex flex-col md:flex-row ml-6 absolute right-0 md:static md:mr-0 bg-white md:bg-inherit ease-out duration-500 ${
             !dropdown ? "-top-96 -right-8" : "-right-8 top-16"
           }`}
         >
@@ -39,10 +39,7 @@ const Header = () => {
             <a href="#about">ABOUT</a>
           </li>
           <li className="md:ml-12 py-3 md:py-0 px-16 md:px-0 hover:bg-gray-200 md:hover:bg-inherit hover:text-green-500">
-            <a href="#projects">PROJECT</a>
-          </li>
-          <li className="md:ml-12 py-3 md:py-0 px-16 md:px-0 hover:bg-gray-200 md:hover:bg-inherit hover:text-green-500">
-            <a href="#contact">CONTACT</a>
+            <Link to="/blogs">BLOGS</Link>
           </li>
         </ul>
       </div>
