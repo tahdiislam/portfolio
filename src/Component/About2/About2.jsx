@@ -10,7 +10,7 @@ const About2 = () => {
   return (
     <div>
       <Header />
-      <div id="about" className="bg-gray-100 pt-16">
+      <div id="about" className="bg-gray-100 pt-20">
         <div className="w-3/4 md:w-1/2 mx-auto">
           <h1 className="text-4xl font-bold text-center mb-8">ABOUT ME</h1>
           <p className="text-xl text-center">

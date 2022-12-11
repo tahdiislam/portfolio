@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div
     id="home"
-      className="bg-white py-12 px-4 md:py-48"
+      className="bg-white py-20 px-4 md:py-48"
       style={{
         backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%2380877f' fill-opacity='0.11'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E")`,
         backgroundSize: "auto"
