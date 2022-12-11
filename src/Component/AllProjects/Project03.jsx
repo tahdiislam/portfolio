@@ -1,9 +1,9 @@
 import React from "react";
 import Button from "../Button/Button";
 import Header from "../Header/Header";
-import img01 from "../../assets/LaptopMart/laptopMart01.png";
-import img02 from "../../assets/LaptopMart/laptopMart02.png";
-import img03 from "../../assets/LaptopMart/laptopMart03.png";
+import img01 from "../../assets/codeTutor/codeTutor01.png";
+import img02 from "../../assets/codeTutor/codeTutor02.png";
+import img03 from "../../assets/codeTutor/codeTutor03.png";
 import Footers from "../Footers/Footers";
 
 const Project03 = () => {
@@ -19,11 +19,8 @@ const Project03 = () => {
         }}
       >
         <div className="w-full md:w-1/2 mx-auto flex flex-col items-center">
-          <h1 className="text-5xl font-bold mb-10 text-center">Laptop Mart</h1>
-          <p className="text-xl mb-10 text-center">
-            Multi vendor e-commerce application
-          </p>
-          <a target="_blank" href="https://laptop-mart-26.web.app/">
+          <h1 className="text-5xl font-bold mb-10 text-center">Code Tutor</h1>
+          <a target="_blank" href="https://code-tutor-255e9.web.app/">
             <Button>Live Preview</Button>
           </a>
         </div>
@@ -37,9 +34,8 @@ const Project03 = () => {
       <div className="px-4 md:px-0">
         <h1 className="text-5xl font-bold my-8 text-center">Details</h1>
         <p className="text-xl mb-10 text-center md:w-1/2 mx-auto">
-          Laptop Mart is a multi vendor e-commerce where I seller can sell old
-          laptop, a buyer can buy laptop, and the Admin can manage his user and
-          all product.
+          Code Tutor is a AdTech platform where the seller can sell their
+          courses. and the user can buy any kind of curses
         </p>
         <div className="md:w-1/2 mx-auto flex flex-col items-start mb-10 px-4 md:px-0">
           <h3 className="text-center font-bold text-2xl">Main Feature</h3>
