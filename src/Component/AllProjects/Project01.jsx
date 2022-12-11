@@ -1,8 +1,14 @@
 import React from "react";
+import Button from "../Button/Button";
+import Header from "../Header/Header";
+import img01 from "../../assets/LaptopMart/laptopMart01.png";
+import img02 from "../../assets/LaptopMart/laptopMart02.png";
+import img03 from "../../assets/LaptopMart/laptopMart03.png";
 
 const Project01 = () => {
   return (
     <div>
+      <Header />
       <div
         id="home"
         className="bg-white py-12 px-4 md:py-48"
@@ -12,21 +18,23 @@ const Project01 = () => {
         }}
       >
         <div className="w-full md:w-1/2 mx-auto flex flex-col items-center">
-          <h1 className="text-5xl font-bold mb-10 text-center">
-            HEY, I'M TAHDI ISLAM_
-          </h1>
+          <h1 className="text-5xl font-bold mb-10 text-center">Laptop Mart</h1>
           <p className="text-xl mb-10 text-center">
-            A Frontend focused Web Developer building the Frontend of Websites
-            and Web Applications that leads to the success of the overall
-            product
+            Multi vendor e-commerce application
           </p>
-          <a
-            target="_blank"
-            href="https://drive.google.com/file/d/1z5teT-C-_e8VP0rCh_cA61xK9pvc_GzW/view?usp=share_link"
-          >
-            <Button>RESUME</Button>
+          <a target="_blank" href="https://laptop-mart-26.web.app/">
+            <Button>Live Preview</Button>
           </a>
         </div>
+      </div>
+      <h1 className="text-5xl font-bold mb-10 text-center">Image Gallery</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-4 mb-8">
+        <img className="rounded-xl" src={img01} alt="" />
+        <img className="rounded-xl" src={img02} alt="" />
+        <img className="rounded-xl" src={img03} alt="" />
+      </div>
+      <div>
+        
       </div>
     </div>
   );
