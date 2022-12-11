@@ -18,14 +18,14 @@ const projects = [
     name: "Snack Deck",
     details:
       "Snack deck is simple personal cloud kitchen where the seller can sell his food and the user can buy any food and review in food, also can manage his review",
-    link: "https://snackdeck-a569c.web.app/",
+    link: "/snackdeck",
   },
   {
     img: img03,
     name: "Code Tutor",
     details:
       "Code Tutor is a AdTech platform where the seller can sell their courses. and the user can buy any kind of curses",
-    link: "https://code-tutor-255e9.web.app/",
+    link: "/code-tutor",
   },
 ];
 

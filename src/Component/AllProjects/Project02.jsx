@@ -1,12 +1,12 @@
 import React from "react";
 import Button from "../Button/Button";
 import Header from "../Header/Header";
-import img01 from "../../assets/LaptopMart/laptopMart01.png";
-import img02 from "../../assets/LaptopMart/laptopMart02.png";
-import img03 from "../../assets/LaptopMart/laptopMart03.png";
+import img01 from "../../assets/snackdeck/snackdeck01.png";
+import img02 from "../../assets/snackdeck/snackdeck02.png";
+import img03 from "../../assets/snackdeck/snackdeck03.png";
 import Footers from "../Footers/Footers";
 
-const Project01 = () => {
+const Project02 = () => {
   return (
     <div>
       <Header />
@@ -19,10 +19,7 @@ const Project01 = () => {
         }}
       >
         <div className="w-full md:w-1/2 mx-auto flex flex-col items-center">
-          <h1 className="text-5xl font-bold mb-10 text-center">Laptop Mart</h1>
-          {/* <p className="text-xl mb-10 text-center">
-            Multi vendor e-commerce application
-          </p> */}
+          <h1 className="text-5xl font-bold mb-10 text-center">Snack Deck</h1>
           <a target="_blank" href="https://laptop-mart-26.web.app/">
             <Button>Live Preview</Button>
           </a>
@@ -37,18 +34,16 @@ const Project01 = () => {
       <div className="px-4 md:px-0">
         <h1 className="text-5xl font-bold my-8 text-center">Details</h1>
         <p className="text-xl mb-10 text-center md:w-1/2 mx-auto">
-          Laptop Mart is a multi vendor e-commerce where I seller can sell old
-          laptop, a buyer can buy laptop, and the Admin can manage his user and
-          all product.
+        Snack deck is simple personal cloud kitchen where the seller can sell his food and the user can buy any food and review in food, also can manage his review
         </p>
         <div className="md:w-1/2 mx-auto flex flex-col items-start mb-10 px-4 md:px-0">
           <h3 className="text-center font-bold text-2xl">Main Feature</h3>
           <ul className="list-disc">
             <li>Seller Dashboard</li>
-            <li>Admin DashBoard</li>
+            <li>Buyer can add review</li>
             <li>Authentication system</li>
-            <li>Payment system</li>
-            <li>Advertisement</li>
+            <li>Buyer can add product</li>
+            <li>Manage review</li>
           </ul>
         </div>
       </div>
@@ -57,4 +52,4 @@ const Project01 = () => {
   );
 };
 
-export default Project01;
+export default Project02;

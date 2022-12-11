@@ -6,7 +6,7 @@ import img02 from "../../assets/LaptopMart/laptopMart02.png";
 import img03 from "../../assets/LaptopMart/laptopMart03.png";
 import Footers from "../Footers/Footers";
 
-const Project01 = () => {
+const Project03 = () => {
   return (
     <div>
       <Header />
@@ -20,9 +20,9 @@ const Project01 = () => {
       >
         <div className="w-full md:w-1/2 mx-auto flex flex-col items-center">
           <h1 className="text-5xl font-bold mb-10 text-center">Laptop Mart</h1>
-          {/* <p className="text-xl mb-10 text-center">
+          <p className="text-xl mb-10 text-center">
             Multi vendor e-commerce application
-          </p> */}
+          </p>
           <a target="_blank" href="https://laptop-mart-26.web.app/">
             <Button>Live Preview</Button>
           </a>
@@ -57,4 +57,4 @@ const Project01 = () => {
   );
 };
 
-export default Project01;
+export default Project03;
