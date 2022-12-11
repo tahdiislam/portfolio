@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import About2 from "../Component/About2/About2";
 import Project01 from "../Component/AllProjects/Project01";
 import Project02 from "../Component/AllProjects/Project02";
 import Project03 from "../Component/AllProjects/Project03";
@@ -12,6 +13,7 @@ const router = createBrowserRouter([
   { path: "/snackdeck", element: <Project02 /> },
   { path: "/code-tutor", element: <Project03 /> },
   { path: "/blogs", element: <Blogs /> },
+  { path: "/about", element: <About2 /> },
 ]);
 
 export default router;

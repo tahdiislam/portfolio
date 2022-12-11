@@ -36,7 +36,7 @@ const Header = () => {
             <Link to="/">HOME</Link>
           </li>
           <li className="md:ml-12 py-3 md:py-0 px-16 md:px-0 hover:bg-gray-200 md:hover:bg-inherit hover:text-green-500">
-            <a href="#about">ABOUT</a>
+            <Link to="/about">ABOUT</Link>
           </li>
           <li className="md:ml-12 py-3 md:py-0 px-16 md:px-0 hover:bg-gray-200 md:hover:bg-inherit hover:text-green-500">
             <Link to="/blogs">BLOGS</Link>
