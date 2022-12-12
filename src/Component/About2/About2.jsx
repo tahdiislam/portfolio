@@ -66,14 +66,6 @@ const About2 = () => {
             </a>
           </div>
           <div className="px-6 md:w-1/2 md:py-20 md:p-20 md:pr-10">
-            {/* <h3
-              className="text-2xl font-bold mb-10"
-              data-aos="fade-down"
-              data-aos-duration="700"
-              data-aos-easing="ease-in"
-            >
-              My Skills
-            </h3> */}
             <div
               className=""
               data-aos="fade-left"
