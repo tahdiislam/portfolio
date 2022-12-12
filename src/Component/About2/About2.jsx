@@ -80,14 +80,6 @@ const About2 = () => {
               data-aos-duration="500"
               data-aos-easing="ease-in"
             >
-              {/* {skills.map((skill, i) => (
-                <span
-                  key={i}
-                  className="p-4 bg-gray-300 m-3 rounded-md text-gray-700 font-semibold"
-                >
-                  {skill}
-                </span>
-              ))} */}
               <img className="w-full rounded-full" src={Tahdi_Islam} alt="" />
             </div>
           </div>
