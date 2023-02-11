@@ -5,7 +5,10 @@ import photo from "../../assets/Tahdi-Islam.jpg";
 const Header = () => {
   const [dropdown, setDropdown] = useState(false);
   return (
-    <nav className="flex items-center justify-between px-8 md:px-16 py-4 text-xl font-semibold w-full max-w-screen-2xl mx-auto fixed">
+    <nav
+      // style={{ backdropFilter: "blur(5px)" }}
+      className="flex items-center justify-between px-8 md:px-16 py-4 text-xl font-semibold w-full max-w-screen-2xl mx-auto fixed backdrop-blur-sm"
+    >
       <Link to="/" className="flex md:w-1/4 items-center">
         <img className="h-12 w-12 rounded-full" src={photo} alt="" />
         <h2 className="ml-6 text-2xl">TAHDI ISLAM</h2>
