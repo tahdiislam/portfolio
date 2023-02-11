@@ -65,7 +65,7 @@ const About2 = () => {
               <Button style="py-3 px-10">CONTACT</Button>
             </a>
           </div>
-          <div className="px-6 md:w-1/2 md:py-20 md:p-20 md:pr-10">
+          <div className="px-6 md:w-2/5 md:py-20 md:p-20 md:pr-10">
             <div
               className=""
               data-aos="fade-left"
