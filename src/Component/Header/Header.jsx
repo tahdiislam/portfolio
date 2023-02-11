@@ -32,7 +32,7 @@ const Header = () => {
         </button>
         <ul
           className={`flex flex-col md:flex-row ml-6 absolute right-0 md:static md:mr-0 bg-white md:bg-inherit ease-out duration-500 ${
-            !dropdown ? "-top-96 -right-8" : "-right-8 top-16"
+            !dropdown ? "-right-96 top-16" : "-right-8 top-16 z-50"
           }`}
         >
           <li className="md:ml-12 py-3 md:py-0 px-16 md:px-0 hover:bg-gray-200 md:hover:bg-inherit hover:text-green-500">
